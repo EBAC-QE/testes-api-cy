@@ -25,6 +25,11 @@ cd testes-api-cy
 npm install 
 ```
 
+#### Para subir o servidor:
+```
+npm start
+```
+
 #### Para executar em moodo Headlesss via console:
 ```
 npx cypress run
@@ -37,6 +42,10 @@ npx cypress open
 Após abrir o dasboard, clique na opção "Running integration tests" para rodar todos os testes.
 
 #### Para criar o relatório do mocha:
+```
+npm run cy:run
+```
+
 ```
 npm run cy:report 
 ```
