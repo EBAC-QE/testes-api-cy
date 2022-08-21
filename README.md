@@ -3,7 +3,7 @@
 
 ## Clonando e executando em sua máquina
 
-### Pré-requisito:
+### Pré-requisitos:
 
 - Node.js - Você encontra em: https://nodejs.org/en/
 
@@ -11,9 +11,9 @@
 
 ## Instruções:
 
-#### Garfar o repositório
+#### - Garfar o repositório
 
-Via terminal, rode os seguintes comandos:
+- Via terminal, rode os seguintes comandos:
 
 #### Clonar do seu repositório
 ```
@@ -38,7 +38,6 @@ Math.floor(Math.random()* númeroquedeseja)
 cypress -D, joi, mocha, mochawesome, mochawesome-merge, mochawesome-report-generator, cypress-multi-reporters
 ```
 npm install 
-// 
 ```
 #### Para subir o servidor
 ```
@@ -52,7 +51,7 @@ npx cypress run
 ```
 npx cypress open 
 ```
-Após abrir o dasboard, clique na opção "Running integration tests" para rodar todos os testes.
+- Após abrir o dasboard, clique na opção "Running integration tests" para rodar todos os testes.
 
 #### Para criar o relatório do mocha
 ```
