@@ -8,7 +8,7 @@
     "start": "npx serverest",
     "cy:run": "npx cypress run",
     "cy:report": "npx mochawesome-merge ./mochawesome-report/mochawesome*.json  > mochawesome-report/report.json && npx marge mochawesome-report/report.json",
-    "cy:run-ci": "start-server-and-test start http://localhost:3000/api-doc test"
+    "cy:run-ci": "start-server-and-test start http://localhost:3000/usuarios test"
   },
   "keywords": [],
   "author": "",
@@ -23,6 +23,7 @@
     "mochawesome": "^6.2.2",
     "mochawesome-merge": "^4.2.0",
     "mochawesome-report-generator": "^5.2.0",
+    "serverest": "^2.26.6",
     "start-server-and-test": "^1.14.0"
   }
 }
