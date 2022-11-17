@@ -2,7 +2,7 @@ name: EBAC CI
 
 on:
   push:
-    branches: [ ci ]
+    branches: [ ci, aula-ci ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -10,7 +10,7 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
-  test:
+  cypress:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
