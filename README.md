@@ -1,7 +1,7 @@
 # Testes API - EBAC
 ### Exercício para os alunos de Qualidade de software da EBAC 
 
-#ATENÇÃO: Se você está usando a versão nova do cypress baixe deste outro repositório: https://github.com/EBAC-QE/teste-api-ebac
+###ATENÇÃO: Se você está usando a versão nova do cypress baixe deste outro repositório: https://github.com/EBAC-QE/teste-api-ebac
 
 ## Clonando e executando em sua máquina
 
